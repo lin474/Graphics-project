@@ -9,8 +9,8 @@ float cx,cz;
 float xRotated = 90.0, yRotated = 0.0, zRotated = 0.0;
 void keyboard(unsigned char Key,int x,int y)//input change value o x and y depending on key 
     {
-   if(Key=='w'){cx-=0.1;} if(Key=='s'){cx+=0.1;}//forward and back   moving
-    if(Key=='a'){cz-=0.1;} if(Key=='d'){cz+=0.1;}//left and right    moving
+   if(Key=='w'){cx-=0.2;} if(Key=='s'){cx+=0.2;}//forward and back   moving
+    if(Key=='a'){cz-=0.2;} if(Key=='d'){cz+=0.2;}//left and right    moving
 
     glutPostRedisplay();
     }
