@@ -196,7 +196,7 @@ void treeleg()
 
 }
 
-void cloud()
+void cloud() //initiates the cloud shape
 {
     glColor3f(1,1,1);
     glPushMatrix ();
@@ -267,9 +267,9 @@ void idleFunc (void)
     glutPostRedisplay();
 }
 
-void texture (void){
+void texture (void){ //adds textures to bodies
 
-const GLfloat light_ambient[]  = { 0.0f, 0.0f, 0.0f, 1.0f };
+const GLfloat light_ambient[]  = { 0.3f, 0.0f, 0.0f, 1.0f };
 const GLfloat light_diffuse[]  = { 1.0f, 1.0f, 1.0f, 1.0f };
 const GLfloat light_specular[] = { 1.0f, 1.0f, 1.0f, 1.0f };
 const GLfloat light_position[] = { 2.0f, 5.0f, 5.0f, 0.0f };
