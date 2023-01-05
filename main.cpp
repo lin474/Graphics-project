@@ -324,7 +324,6 @@ int main (int argc, char **argv)
 
     glClearColor(0,0,0.2,1);
     texture(); // Lighting and textures
-
-
+    sndPlaySound("C:\\Users\\Lenovo\\Desktop",SND_ASYNC);
     glutMainLoop();
 }
