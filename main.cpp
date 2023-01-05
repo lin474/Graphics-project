@@ -124,7 +124,7 @@ void building()
     glScalef(2,2,3);
     glBegin(GL_TRIANGLES);           // Begin drawing the pyramid with 4 triangles
       // Front
-      glColor3f(1.0f, 0.0f, 0.0f);     // Red
+      glColor3f(0.0f, 1.0f, 0.0f);     // Red
       glVertex3f( 0.0f, 1.0f, 0.0f);
 
       glVertex3f(-1.0f, -1.0f, 1.0f);
